@@ -11,3 +11,50 @@
 6. to push file(text2.txt) git_local_folder to github repositorie(github123) ---> git push origin main (origin == repositorie(github123) link, main == branch (the file(text2.txt) were in repositorie(github123) -> main(branch) -> text2.txt ) )
 
 7.the "M" simbol next to the text2.txt is means --> the file is modified but still not added into the github repositorie.
+
+8. if we modify this file(text2.txt) in github.com and get that updated file in vscode ---> git pull (modified == deleted,updated)
+
+
+*********************************************** local folder ல் இருந்து github repositorie க்கு file ஐ அனுப்புவது எப்படி*************************
+
+
+
+1. terminal ல் github123 folder ல் நாம் இருந்தால்.. நாம் மற்றொரு folder க்கு மாறுவதற்கு terminal ல் "cd .." என்று கொடுக்க வேண்டும் இவ்வாறு கொடுத்தால் நாம்  GIT12345 folder க்கு வந்து விடுவோம்.. அங்கிருந்து "newGitHub123" folder க்குள் terminal ஐ எடுத்து செல்ல "cd newGitHub123" என்று கொடுக்க வேண்டும் 
+
+2. newGitHub123(folder) க்குள் git repositorie ஐ creat செய்ய --> terminal ல் "git init" என்று கொடுக்க வேண்டும்.
+
+3. newGitHub123 ல் modify (or ) creat செய்யபட்ட அனைத்து file ஐ யும் staging area வுக்கு கொண்டுசெல்ல -->git add .
+
+4. to go staging area to git_local_folder --> git commit -m "created index.html and newFile.txt"
+
+5.after creat a new repositorie in github website 
+
+
+6. to connect git_local_folder to github origin --> git remote add origin https://github.com/ajithkumar144/newGitHub123.git(copy the origin link in github website)
+
+7. initially the git_branch name is "master", we should change master into main --> type this in terminal "git branch -M main".
+
+8. to push all file git_local_folder to github repositorie(newGitHub123) ---> git push origin main 
+
+
+*********************************************************** branches *******************************************************************
+
+1. main branch ல் ஒரு sub branch create பன்னால் main branch ல் உள்ள அனைத்து file ம் sub branch ல் copy ஆகும் 
+
+2. புதிதாக சேரகபட்ட branch ஐ நாம் vscode ல் பார்க்க --> git pull --> git branch -a 
+
+3.to open new branch --> git checkout new_branch.
+
+4. நாம் தற்போது எந்த branch ல் உள்ளோம் என்பதை பார்க்க --> git branch -a 
+
+
+
+
+
+
+
+
+
+ 
+
+
