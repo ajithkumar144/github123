@@ -45,7 +45,13 @@
 
 3.to open new branch --> git checkout new_branch.
 
-4. நாம் தற்போது எந்த branch ல் உள்ளோம் என்பதை பார்க்க --> git branch -a 
+4. நாம் தற்போது எந்த branch ல் உள்ளோம் என்பதை பார்க்க --> git branch -a .
+
+நாம் sub branch ல் oru file ஐ add பன்னால் அது main branch ல் காட்டாது 
+
+5. to see the difference between main branch and sub branch --> git branch -a --> (if not main branch) git checkout main --> git diff new_branch
+
+6. to merge main and sub branch --> git merge new_branch --> git push origin main
 
 
 
