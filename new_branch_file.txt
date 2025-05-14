@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-this is the new_branch_file
-=======
-this is the new_branch...
->>>>>>> new_branch
