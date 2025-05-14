@@ -1,0 +1,7 @@
+1. to insert github repositorie into local folder--> type this in terminal: git clone https://github.com/ajithkumar144/github123.git
+
+2.to change dairectory ---> cd github123 (this will get the terminal into github repositorie) or ( to go github123 folder)
+
+3. to check status U (or) A ---> git status (U=untracked file,  A=added file)
+
+4. 
