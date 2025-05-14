@@ -4,4 +4,8 @@
 
 3. to check status U (or) A ---> git status (U=untracked file,  A=added file)
 
-4. 
+4. to get the file(text2.txt) into staging area ---> git add text2.txt 
+
+5. to get the file(text2.txt) into git_local_folder ---> git commit -m "text2.txt file added" (this will add the file into git_local_folder and -m "text2.txt file added" is a commit message )
+
+6. to push file(text2.txt) git_local_folder to github repositorie(github123) ---> git push origin main (origin == repositorie(github123) link, main == branch (the file(text2.txt) were in repositorie(github123) -> main(branch) -> text2.txt ) )
